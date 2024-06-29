@@ -1,0 +1,28 @@
+﻿# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# .terraform directory should not be committed as it contains state files and plugin binaries
+.terraform/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+.idea/
+.vscode/
+
+# Ignore sensitive files
+credentials.tfvars
+secrets.tfvars
